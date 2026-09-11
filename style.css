@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+nav{
+    display:flex;
+    justify-content:
+space-between;
+align-items: center;
+padding: 20px 50px;
+background-color: #ff6b35;
+}
+nav h2{
+    margin:0;
+    color:white;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#home{
+    text-align: center;
+    padding: 100px 20px;
+    background: #fff3e6;
+}
+#home h1{
+    font-size: 45px;
+    margin-bottom:20px;
+}
+#home p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+#home a{
+    display:inline-block;
+    padding:12px 25px;
+    background-color:#ff6b35;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+#home a:hover {
+    background-color:#e85b2a;
+}
+#menu{
+    text-align:center;
+    padding:70px 20px;
+}
+#menu h2{
+    font-size:35px;
+    margin-bottom:40px;
+}
+#menu div{
+    display:inline-block;
+    width:25%;
+    margin:10px;
+    padding:25px;
+    background-color:#ffe0cc;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+#menu img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#menu div:hover{
+    transform:translateY(-5px);
+}
+#menu h3{
+    font-size:22px;
+}
+#menu p{
+    font-size:16px;
+}
+#about{
+    text-align:center;
+    padding:70px 20px;
+    background-color:#fff3e6;
+}
+#about h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+#about p{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+}
+#contact {
+    text-align:center;
+    padding:70px 20px;
+}
+#contact h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+#contact p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+#contact a{
+    display:inline-block;
+    padding:12px 25px;
+    background-color:#ff6b35;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+#contact a:hover {
+    background-color:#e85b2a;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background-color:#333;
+    color:white;
+}
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+    nav a{
+        margin-left:10px;
+        margin:10px;
+    }
+    #home h1{
+        font-size:32px;
+    }
+    #menu div{
+        display:block;
+        width:auto;
+        margin:20px;
+    }
+}
